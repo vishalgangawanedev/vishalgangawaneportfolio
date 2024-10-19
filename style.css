@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #f3eeee;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f4f4f4;
+}
+
+header p {
+    font-size: 2rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.about-container>p {
+    color: #fcfafa;
+    font-size: 30px;
+    margin: 20px;
+    padding-bottom: 70px;
+    font-weight: bold
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(4.jpg);
+    background-size: cover;
+}
+
+.profile-photo {
+    background-color: #a60404;
+    max-width: 300px;
+    margin: 50px;
+    height: auto;
+    width: auto;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 1600px;
+    height: 500px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
